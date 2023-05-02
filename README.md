@@ -37,3 +37,8 @@ Due to copyright reasons, we are not able to release datasets. Follow the instru
 1. First, get data from the WMT Task 
 2. Run doc_align.py to process the data 
 3. Evaluate with WMT-16 code
+
+
+## Own installation 
+conda create -n doc-emb python=3.8
+pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1
