@@ -147,8 +147,10 @@ class Sentence_Configurations:
         self.average("top",document_id)
         self.average("bottom",document_id)
         self.pert_doc_vec(document_id)
-#        self.tf_idf_w(document_id,2,4)
-#        self.tf_idf_w(document_id,4,4)
+        print("Halfway")
+        self.tf_idf_w(document_id,2,4)
+        self.tf_idf_w(document_id,4,4)
+        print("tf_pert")
         self.tf_pert(document_id,2,4)
         self.tf_pert(document_id,4,4)
 
